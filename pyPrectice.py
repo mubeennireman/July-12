@@ -13,7 +13,7 @@ else:
 
 # Write a program to print all Armstrong numbers in a given range. Note: An Armstrong number is a number whose sum of cubes of digits is equal to the number itself
 
-armInput = int(input('please enter a number:'))
+'''armInput = int(input('please enter a number:'))
 arm_remain = armInput
 length = len(str(armInput))
 sum = 0
@@ -25,5 +25,14 @@ while arm_remain != 0:
 if (sum == armInput):
     print(f'{armInput} is a Armstrong Number')
 else:
-    print(f'{armInput} isn\'t a Armstrong Number')
+    print(f'{armInput} isn\'t a Armstrong Number')'''
 
+
+# write a program to multiply two numbers by repeated addition.abs
+
+Input_1 = int(input('Enter first number:'))
+Input_2 = int(input('Enter second number:'))
+sum = 0
+for i in range(1, Input_2 + 1):
+    sum += Input_1
+print(f'Both numbers multiple is {sum}')
